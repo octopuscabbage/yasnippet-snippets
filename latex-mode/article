@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: article
+# key: article
+# --
+\documentclass{article}
+\title{$1}
+\author{$2}
+\date{$3}
+\begin{document}
+\maketitle
+$4
+
+\end{document}
