@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+#name: angular-directive
+#key: directive
+# --
+
+'use strict';
+
+define(['${1:module-path}'], function(${2:moduleName}) {
+    ${2:moduleName}.directive('${3:directiveName}'), [function() {
+        return:{
+            restrict: 'E',
+            transclude: true,
+            scope: {},
+            templateUrl: '${4:templateUrl}',
+            link: function(scope){
+                ${5:functionBody)
+            }
+        };
+     }]);
+});

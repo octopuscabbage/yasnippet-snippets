@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+#name: angular-module
+#key: module
+# --
+
+'use strict';
+
+define(['angular'],function(angular){
+    return angular.module('${1:moduleName}, []);
+});

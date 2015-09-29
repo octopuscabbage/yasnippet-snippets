@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+#name: angular-main
+#key: main
+# --
+
+'use strict';
+
+define(['${1:module-path}',
+        '${2:directive-path}'
+], function(module) {
+        return module;
+});
